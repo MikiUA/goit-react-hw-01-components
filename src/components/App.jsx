@@ -1,3 +1,8 @@
+import FriendListWrapper from "./friendList/FriendListWrapper";
+import ProfileWrapper from "./profile/ProfileWrapper";
+import StatisticsWrapper from "./statistics/StatisticsWrapper";
+import TransactionsWrapper from "./transactionHistory/TransactionsWrapper";
+
 export const App = () => {
   return (
     <div
@@ -7,10 +12,14 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
+        flexWrap: 'wrap'
       }}
     >
-      React homework template
+      <ProfileWrapper/> 
+      <StatisticsWrapper/>
+      <FriendListWrapper/>
+      <TransactionsWrapper/>
     </div>
   );
 };
