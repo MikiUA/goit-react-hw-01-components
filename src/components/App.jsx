@@ -16,7 +16,10 @@ export const App = () => {
         flexWrap: 'wrap'
       }}
     >
-      hey
+      <ProfileWrapper/> 
+      <StatisticsWrapper/>
+      <FriendListWrapper/>
+      <TransactionsWrapper/>
     </div>
   );
 };
