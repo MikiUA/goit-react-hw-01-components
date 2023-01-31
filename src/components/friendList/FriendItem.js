@@ -5,11 +5,13 @@ import styles from './FriendItem.module.css'
 function FriendItem({item:{avatar,name,isOnline}}) {
   return (
     <div className={styles['friend-item']} >
-      <span style={{  color:(isOnline)?'green':'red'}}>
+      <span style={{ color:(isOnline)?'green':'red'}}>
           *
       </span>
 
-      <img className={styles.image} src={avatar}  alt="User avatar">  </img>
+      <img 
+      className={styles['avatar-image']}
+       src={avatar}  alt="User avatar"/>
       
       {name}
         
