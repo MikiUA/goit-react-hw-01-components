@@ -21,7 +21,7 @@ code {
   align-items: center;
   font-size: 40px;
   color: #010101;
-  flex-wrap: 'wrap';
+  flex-wrap: wrap;
 }
 .task-wrapper {
   /* width:500px; */
