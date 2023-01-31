@@ -4,7 +4,7 @@ import FriendItem from './FriendItem'
 
 function FriendList({friends}) {
   return (
-    <ul className="friend-list">
+    <ul>
     {friends.map((friend)=>{
         if (!friend.id) return console.warn("there is a friend item without id")
         return <FriendItem key={friend.id} item={friend} />

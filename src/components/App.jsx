@@ -5,17 +5,7 @@ import TransactionsWrapper from "./transactionHistory/TransactionsWrapper";
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-        flexWrap: 'wrap'
-      }}
-    >
+    <div className="task-box"  >
       <ProfileWrapper/> 
       <StatisticsWrapper/>
       <FriendListWrapper/>

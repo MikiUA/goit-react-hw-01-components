@@ -1,4 +1,7 @@
-# React homework template
+# React homework 01
+https://mikiua.github.io/goit-react-hw-01-components/
+
+## React homework template
 
 Этот проект был создан при помощи
 [Create React App](https://github.com/facebook/create-react-app). Для знакомства
